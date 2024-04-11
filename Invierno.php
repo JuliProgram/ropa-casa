@@ -15,7 +15,7 @@
     <script src="css/bootstrap/js/bootstrap.bundle.min.js"></script>
     <link rel="stylesheet" href="css/estilos.css">
 </head>
-<body id="inicio" class="d-flex flex-column h-100">
+<body id="invierno" class="d-flex flex-column h-100">
     <header class="container">
     <div class="row py-3">
             <div class="row d-flex align-items-center">
@@ -69,29 +69,31 @@
                     </div>
     </header>
     <main class="container">
-    <div class="row locacion text-center py-3">
-            <div class="col-6 py-3">
-            <i class="px-2 icon fa-solid fa-location-dot"></i>
-            <a href="">ChangoMas! - El Talar</a>
-            <p>Ruta 197 y Panamericana</p>
-            </div>
-            <div class="col-6 py-3">
-            <i class="px-2 icon fa-solid fa-location-dot"></i>
-            <a href="">Estacion Tigre</a>
-            <p>Tigre</p>
-            </div>
-            <div class="col-6 py-3">
-            <i class="px-2 icon fa-solid fa-location-dot"></i>
-            <a href="">Rincon de Milberg</a>
-            <p>Terminal de Colectivos 60</p>
-            </div>
-            <div class="col-6 py-3">
-            <i class="px-2 icon fa-solid fa-location-dot"></i>
-            <a href="">Pregunte Otras Zonas</a>
-            <p>Disponible solo en Zona Norte</p>
-            </div>
-
-        </div>
+    <div class="container">
+                <!-- Portfolio Section Heading-->
+                <h2 class="py-3 page-section-heading text-center text-uppercase text-secondary mb-0">INVIERNO</h2>
+                <!-- Icon Divider-->
+                
+    <div class="row justify-content-center">
+                    <!-- Portfolio Item 1-->
+                    <div class="col-md-6 col-lg-3 mb-5">
+                        <div class="portfolio-item mx-auto text-center" data-bs-toggle="modal" data-bs-target="#portfolioModal1">
+                            <img src="images/invierno1.png" alt="">
+                        </div>
+                    </div>
+                    <!-- Portfolio Item 2-->
+                    <div class="col-md-6 col-lg-3 mb-5">
+                        <div class="portfolio-item mx-auto text-center" data-bs-toggle="modal" data-bs-target="#portfolioModal1">
+                            <img class="" src="images/invierno1.png" alt="">
+                        </div>
+                    </div>
+                    <!-- Portfolio Item 3-->
+                    <div class="col-md-6 col-lg-3 mb-5">
+                        <div class="portfolio-item mx-auto text-center" data-bs-toggle="modal" data-bs-target="#portfolioModal1">
+                            <img class="" src="images/invierno1.png" alt="">
+                        </div>
+                    </div>
+                </div>
     </main>
     <footer class="container mt-auto py-4">
       <div class="row">

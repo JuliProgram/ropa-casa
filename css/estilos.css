@@ -22,7 +22,11 @@ body{
     background-attachment: fixed;
     background-position: bottom;
 }
-
+/*INIVIERNO*/
+#invierno img{
+    height: 200px;
+    
+}
 
 /*CONTACTO*/
 a{
