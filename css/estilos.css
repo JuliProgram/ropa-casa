@@ -2,6 +2,28 @@
 body{
     font-family: 'Montserrat', sans-serif;
 }
+/*Encuentro*/
+#encuentro p{
+    font-size: 30px;
+}
+#encuentro .locacion a{
+    font-size: 20px;
+}
+#encuentro .locacion .fa-location-dot{
+    font-size: 50px;
+}
+#encuentro .locacion div{
+    border: gray 1px solid;
+}
+#encuentro ,#contacto{
+    background-image: url(../images/fondo-contacto.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-position: bottom;
+}
+
+
 /*CONTACTO*/
 a{
     text-decoration: none;
@@ -10,7 +32,7 @@ a{
 #inicio h1{
     font-size: 80px;
 }
-#contacto, #inicio{
+#inicio{
     background-image: url(../images/fondo-ropa.png);
     background-size: cover;
     background-repeat: no-repeat;
@@ -65,17 +87,17 @@ textarea{
 .fa-solid{
     font-weight: 900;
 }
-#contacto .fa-facebook ,#inicio .fa-facebook{
+#contacto .fa-facebook ,#inicio .fa-facebook ,#encuentro .fa-facebook{
     font-size: 37px;
     height: 40px;
     color: #eee;
 }
-#contacto .fa-instagram ,#inicio .fa-instagram{
+#contacto .fa-instagram ,#inicio .fa-instagram ,#inicio .fa-envelope ,#contacto .fa-envelope ,#encuentro .fa-envelope ,#encuentro .fa-instagram{
     color: white;
     border-radius: 22px;
     padding: 8px 8px 4px 8px;
     font-size: 38px;
-    margin-left: 10px;
+    margin-left: 10px;  
 }
 footer .fa-whatsapp{
     color: white;
@@ -244,8 +266,11 @@ footer .fa-whatsapp{
     height: 182px;
 }
 /*Inicio*/
-#inicio img{
+#inicio .img-main{
     height: 400px;
+}
+img.logo{
+    height: 80px;
 }
 #inicio p {
     color: white;
@@ -254,9 +279,4 @@ footer .fa-whatsapp{
     border-radius: 20px;
     font-size: 17px;
 }
-#inicio img:hover{
-    height: 410px;
-}
-.div-cohete{
-    height: 400px;
-}
+

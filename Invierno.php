@@ -48,7 +48,7 @@
             <div class="opciones py-3">
                     <div class="row text-center">
                         <div class="col-2">
-                            <a href="Invierno.php" >Invierno</a>
+                            <a href="" >Invierno</a>
                         </div>
                         <div class="col-2">
                             <a href="">Zapatos</a>
@@ -69,26 +69,28 @@
                     </div>
     </header>
     <main class="container">
-        <div class="row fondo py-5">
-          <div class="col-6 text-center">
-            <div class="row">
-              <div class="12 py-2">
-                <h1>Aproveche las ofertas de verano!</h1>
-                <p class="text-main">Ahorra mucho con los descuentos que tenemos para vos!</p>
-              </div>
+    <div class="row locacion text-center py-3">
+            <div class="col-6 py-3">
+            <i class="px-2 icon fa-solid fa-location-dot"></i>
+            <a href="">ChangoMas! - El Talar</a>
+            <p>Ruta 197 y Panamericana</p>
             </div>
-            <div class="row">
-              <div class="12 py-2">
-                <button class="btn btn-primary">Ver<a href=""></a></button>
-              </div>
+            <div class="col-6 py-3">
+            <i class="px-2 icon fa-solid fa-location-dot"></i>
+            <a href="">Estacion Tigre</a>
+            <p>Tigre</p>
             </div>
-          </div>
-          <div class="col-6 text-center">
-            <img class="img-main" src="images/ropa main.png" alt="">
-          </div>
-        </div>
-        <div class="row">
-          
+            <div class="col-6 py-3">
+            <i class="px-2 icon fa-solid fa-location-dot"></i>
+            <a href="">Rincon de Milberg</a>
+            <p>Terminal de Colectivos 60</p>
+            </div>
+            <div class="col-6 py-3">
+            <i class="px-2 icon fa-solid fa-location-dot"></i>
+            <a href="">Pregunte Otras Zonas</a>
+            <p>Disponible solo en Zona Norte</p>
+            </div>
+
         </div>
     </main>
     <footer class="container mt-auto py-4">
