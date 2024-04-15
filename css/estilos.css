@@ -23,9 +23,11 @@ body{
     background-position: bottom;
 }
 /*INIVIERNO*/
-#invierno img{
+ .logo {
+    height: 10px;   
+}
+#invierno .invierno-foto{
     height: 200px;
-    
 }
 
 /*CONTACTO*/

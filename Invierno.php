@@ -16,7 +16,40 @@
     <link rel="stylesheet" href="css/estilos.css">
 </head>
 <body id="invierno" class="d-flex flex-column h-100">
-    <header class="container">
+<nav class="navbar navbar-expand-lg bg-danger text-uppercase fixed-top" id="mainNav">
+            <div class="container">
+                <img class="logo" src="images/logoAB.png" alt="">
+                <button class="navbar-toggler text-uppercase font-weight-bold bg-primary text-white rounded" type="button" data-bs-toggle="collapse" data-bs-target="#navbarResponsive" aria-controls="navbarResponsive" aria-expanded="false" aria-label="Toggle navigation">
+                    Menu
+                    <i class="fas fa-bars"></i>
+                </button>
+                <div class="collapse navbar-collapse" id="navbarResponsive">
+                    <ul class="navbar-nav ms-auto">
+                        <li class="nav-item mx-0 mx-lg-1"><a class="nav-link py-3 px-0 px-lg-3 rounded" href="#portfolio"><i class="px-2 icon fa-solid fa-location-dot"></i>Puntos de encuentro</a></li>
+                        <li class="nav-item mx-0 mx-lg-1"><a class="nav-link py-3 px-0 px-lg-3 rounded" href="#about"><form action="">
+                            <input class="search-buttom" type="text" placeholder="Buscar">
+                            </form></a>
+                        </li>
+                        <li class="nav-item mx-0 mx-lg-1"><a class="nav-link py-3 px-0 px-lg-3 rounded" href="#contact">
+                        <div class="col-5 text-end">
+                        <i class="px-2 fa-solid fa-user"></i>  
+                        </div>
+                        </a></li>
+                        <li class="nav-item mx-0 mx-lg-1"><a class="nav-link py-3 px-0 px-lg-3 rounded" href="#contact">
+                        <div class="col-5 text-end">
+                        <i class="px-2 fa-solid fa-heart"></i>                        
+                        </div>
+                        </a></li>
+                        <li class="nav-item mx-0 mx-lg-1"><a class="nav-link py-3 px-0 px-lg-3 rounded" href="#contact">
+                        <div class="col-5 text-end">
+                        <i class="px-2 fa-solid fa-cart-shopping"></i>
+                        </div>
+                        </a></li>
+                    </ul>
+                </div>
+            </div>
+        </nav>    
+<header class="container">
     <div class="row py-3">
             <div class="row d-flex align-items-center">
               <div class="col-4 text-center">
@@ -78,22 +111,40 @@
                     <!-- Portfolio Item 1-->
                     <div class="col-md-6 col-lg-3 mb-5">
                         <div class="portfolio-item mx-auto text-center" data-bs-toggle="modal" data-bs-target="#portfolioModal1">
-                            <img src="images/invierno1.png" alt="">
+                            <img class="invierno-foto" src="images/invierno1.png" alt="">
                         </div>
                     </div>
                     <!-- Portfolio Item 2-->
                     <div class="col-md-6 col-lg-3 mb-5">
-                        <div class="portfolio-item mx-auto text-center" data-bs-toggle="modal" data-bs-target="#portfolioModal1">
-                            <img class="" src="images/invierno1.png" alt="">
+                        <div class="portfolio-item mx-auto text-center" data-bs-toggle="modal" data-bs-target="#portfolioModal2">
+                            <img class="invierno-foto" src="images/invierno1.png" alt="">
                         </div>
                     </div>
                     <!-- Portfolio Item 3-->
                     <div class="col-md-6 col-lg-3 mb-5">
-                        <div class="portfolio-item mx-auto text-center" data-bs-toggle="modal" data-bs-target="#portfolioModal1">
-                            <img class="" src="images/invierno1.png" alt="">
+                        <div class="portfolio-item mx-auto text-center" data-bs-toggle="modal" data-bs-target="#portfolioModal3">
+                            <img class="invierno-foto" src="images/invierno1.png" alt="">
                         </div>
                     </div>
-                </div>
+                    <!-- Portfolio Item 4-->
+                    <div class="col-md-6 col-lg-3 mb-5">
+                        <div class="portfolio-item mx-auto text-center" data-bs-toggle="modal" data-bs-target="#portfolioModal4">
+                            <img class="invierno-foto" src="images/invierno1.png" alt="">
+                        </div>
+                    </div>
+                    <!-- Portfolio Item 5-->
+                    <div class="col-md-6 col-lg-3 mb-5">
+                        <div class="portfolio-item mx-auto text-center" data-bs-toggle="modal" data-bs-target="#portfolioModal5">
+                            <img class="invierno-foto" src="images/invierno1.png" alt="">
+                        </div>
+                    </div>
+                    <!-- Portfolio Item 6-->
+                    <div class="col-md-6 col-lg-3 mb-5">
+                        <div class="portfolio-item mx-auto text-center" data-bs-toggle="modal" data-bs-target="#portfolioModal6">
+                            <img class="invierno-foto" src="images/invierno1.png" alt="">
+                        </div>
+                    </div>
+    </div>
     </main>
     <footer class="container mt-auto py-4">
       <div class="row">
@@ -115,7 +166,88 @@
           <i class="fa-brands fa-whatsapp px-3 pt-3 pb-4"></i>
          </a>
       </div>
-  </footer>       
+  </footer>
+  <div class="portfolio-modal modal fade" id="portfolioModal1" tabindex="-1" aria-labelledby="portfolioModal1" aria-hidden="true">
+            <div class="modal-dialog modal-xl">
+                <div class="modal-content">
+                    <div class="modal-header border-0"><button class="btn-close" type="button" data-bs-dismiss="modal" aria-label="Close"></button></div>
+                    <div class="modal-body text-center pb-5">
+                        <div class="container">
+                            <div class="row justify-content-center">
+                                <div class="col-lg-8">
+                                    <!-- Portfolio Modal - Title-->
+                                    <h2 class="portfolio-modal-title text-secondary text-uppercase mb-0">ropa invierno 1</h2>
+                                    <!-- Portfolio Modal - Image-->
+                                    <img class="" src="images/invierno1.png" alt="">
+                                    <!-- Portfolio Modal - Text-->
+                                    <p class="mb-4">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Mollitia neque assumenda ipsam nihil, molestias magnam, recusandae quos quis inventore quisquam velit asperiores, vitae? Reprehenderit soluta, eos quod consequuntur itaque. Nam.</p>
+                                    <button class="btn btn-primary " data-bs-dismiss="modal">
+                                        <i class="fas fa-xmark fa-fw"></i>
+                                        Close Window
+                                    </button>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    <!-- Portfolio Modal 2-->
+    <div class="portfolio-modal modal fade" id="portfolioModal2" tabindex="-1" aria-labelledby="portfolioModal2" aria-hidden="true">
+            <div class="modal-dialog modal-xl">
+                <div class="modal-content">
+                    <div class="modal-header border-0"><button class="btn-close" type="button" data-bs-dismiss="modal" aria-label="Close"></button></div>
+                    <div class="modal-body text-center pb-5">
+                        <div class="container">
+                            <div class="row justify-content-center">
+                                <div class="col-lg-8">
+                                    <!-- Portfolio Modal - Title-->
+                                    <h2 class="portfolio-modal-title text-secondary text-uppercase mb-0">Tasty Cake</h2>
+                                    <!-- Icon Divider-->
+                                    
+                                    <!-- Portfolio Modal - Image-->
+                                    <img class="img-fluid rounded mb-5" src="assets/img/portfolio/cake.png" alt="..." />
+                                    <!-- Portfolio Modal - Text-->
+                                    <p class="mb-4">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Mollitia neque assumenda ipsam nihil, molestias magnam, recusandae quos quis inventore quisquam velit asperiores, vitae? Reprehenderit soluta, eos quod consequuntur itaque. Nam.</p>
+                                    <button class="btn btn-primary" data-bs-dismiss="modal">
+                                        <i class="fas fa-xmark fa-fw"></i>
+                                        Close Window
+                                    </button>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    <!-- Portfolio Modal 3-->
+    <div class="portfolio-modal modal fade" id="portfolioModal3" tabindex="-1" aria-labelledby="portfolioModal3" aria-hidden="true">
+            <div class="modal-dialog modal-xl">
+                <div class="modal-content">
+                    <div class="modal-header border-0"><button class="btn-close" type="button" data-bs-dismiss="modal" aria-label="Close"></button></div>
+                    <div class="modal-body text-center pb-5">
+                        <div class="container">
+                            <div class="row justify-content-center">
+                                <div class="col-lg-8">
+                                    <!-- Portfolio Modal - Title-->
+                                    <h2 class="portfolio-modal-title text-secondary text-uppercase mb-0">Tasty Cake</h2>
+                                    <!-- Icon Divider-->
+                                    
+                                    <!-- Portfolio Modal - Image-->
+                                    <img class="img-fluid rounded mb-5" src="assets/img/portfolio/cake.png" alt="..." />
+                                    <!-- Portfolio Modal - Text-->
+                                    <p class="mb-4">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Mollitia neque assumenda ipsam nihil, molestias magnam, recusandae quos quis inventore quisquam velit asperiores, vitae? Reprehenderit soluta, eos quod consequuntur itaque. Nam.</p>
+                                    <button class="btn btn-primary" data-bs-dismiss="modal">
+                                        <i class="fas fa-xmark fa-fw"></i>
+                                        Close Window
+                                    </button>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>   
 </body>
 </html>
 </body>
