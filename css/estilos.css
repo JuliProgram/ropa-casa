@@ -2,6 +2,40 @@
 body{
     font-family: 'Montserrat', sans-serif;
 }
+
+/*nav*/
+#mainNav.hidden {
+    display: none;
+}
+#mainNav {
+    padding: 0px;
+}
+#mainNav a{
+    color: white;
+}
+#mainNav img{
+    height: 50px;
+}
+#secondNav.fixed-top {
+    position: fixed;
+    top: 0;
+    width: 100%;
+    z-index: 1000; /* Ajusta el índice z si es necesario */
+}
+
+#secondNav {
+    top: 50px;
+    padding: 0px;
+    background-color: #BC0A1A;
+    color: white;
+}
+
+#secondNav a{
+    color: white;
+}
+.fondo{
+    margin-top: 100px;
+}
 /*Encuentro*/
 #encuentro p{
     font-size: 30px;
@@ -15,13 +49,7 @@ body{
 #encuentro .locacion div{
     border: gray 1px solid;
 }
-#encuentro ,#contacto{
-    background-image: url(../images/fondo-contacto.png);
-    background-size: cover;
-    background-repeat: no-repeat;
-    background-attachment: fixed;
-    background-position: bottom;
-}
+
 /*INIVIERNO*/
  .logo {
     height: 10px;   
@@ -38,13 +66,7 @@ a{
 #inicio h1{
     font-size: 80px;
 }
-#inicio{
-    background-image: url(../images/fondo-ropa.png);
-    background-size: cover;
-    background-repeat: no-repeat;
-    background-attachment: fixed;
-    background-position: bottom;
-}
+
 #inicio .text-main{
     font-size: 20px;
     color: black;
@@ -93,12 +115,22 @@ textarea{
 .fa-solid{
     font-weight: 900;
 }
-#contacto .fa-facebook ,#inicio .fa-facebook ,#encuentro .fa-facebook{
+#contacto .fa-facebook 
+,#inicio .fa-facebook 
+,#encuentro .fa-facebook
+,#invierno .fa-facebook{
     font-size: 37px;
     height: 40px;
     color: #eee;
 }
-#contacto .fa-instagram ,#inicio .fa-instagram ,#inicio .fa-envelope ,#contacto .fa-envelope ,#encuentro .fa-envelope ,#encuentro .fa-instagram{
+#contacto .fa-instagram 
+,#inicio .fa-instagram 
+,#inicio .fa-envelope 
+,#contacto .fa-envelope 
+,#encuentro .fa-envelope 
+,#encuentro .fa-instagram
+,#invierno .fa-instagram
+,#invierno .fa-envelope{
     color: white;
     border-radius: 22px;
     padding: 8px 8px 4px 8px;

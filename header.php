@@ -1,30 +1,57 @@
-<nav class="navbar navbar-expand-md">
-            <div class="container-fluid">
-              <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarCollapse" aria-controls="navbarCollapse" aria-expanded="false" aria-label="Toggle navigation">
-                <span class="navbar-toggler-icon"></span>
-              </button>
-              <div class="collapse navbar-collapse" id="navbarCollapse">
-                <ul class="navbar-nav me-auto mb-2 mb-md-0">
-                  <li class="nav-item">
-                    <a class="nav-link <?php echo ($pg == "inicio")? "active": ""; ?> px-4" href="index.php">Inicio</a>
-                  </li>
-                  <li class="nav-item">
-                    <a class="nav-link <?php echo ($pg == "sobre-mi")? "active": ""; ?> px-4" href="sobre-mi.php">Sobre mi</a>
-                  </li>
-                  <li class="nav-item">
-                    <a class="nav-link <?php echo ($pg == "proyectos")? "active": ""; ?> px-4" href="proyectos.php">Proyectos</a>
-                  </li>
-                  <li class="nav-item">
-                    <a class="nav-link <?php echo ($pg == "contactos")? "active": ""; ?> px-4" href="contactos.php">Contacto</a>
-                  </li>
-                </ul>
-                <ul class="navbar-nav">
-                  <li class="float-sm-end">
-                    <a class="btn btn-rojo" href="contactos.php">
-                      Descargar mi CV <i class="fa-solid fa-download"></i>
-                    </a>
-                  </li>
-                </ul>
-              </div>
+
+<nav class="navbar navbar-expand-lg bg-danger fixed-top" id="mainNav">
+            <div class="container">
+                <i class="px-2 icon fa-solid fa-location-dot"></i>
+                <a class="navbar-brand" href="encuentro.php">Puntos de encuentro</a>
+                <button class="navbar-toggler text-uppercase font-weight-bold bg-primary text-white rounded" type="button" data-bs-toggle="collapse" data-bs-target="#navbarResponsive" aria-controls="navbarResponsive" aria-expanded="false" aria-label="Toggle navigation">
+                    Menu
+                    <i class="fas fa-bars"></i>
+                </button>
+                <div class="col-4 text-center">
+                 <a href="index.php"><img class="logo" src="images/logoAB.png" alt=""></a>
+                </div>
+                <div class="col-4">
+                <div class="row">
+                    <div class="col-1 icon">
+                        <i class="fa-solid fa-magnifying-glass"></i>
+                    </div>
+                    <div class="col-6">
+                    <form action="">
+                        <input class="search-buttom" type="text" placeholder="Buscar">
+                    </form>
+                        </div>
+                    <div class="col-5 text-end">
+                        <i class="px-2 fa-solid fa-user"></i>
+                        <i class="px-2 fa-solid fa-heart"></i>
+                        <i class="px-2 fa-solid fa-cart-shopping"></i>
+                    </div>
+                    </div>
+                </div>            
             </div>
-          </nav>
+        </nav>
+        <nav class="navbar navbar-expand-lg fixed-top" id="secondNav">
+            <div class="container">
+            <div class="opciones py-2">
+                    <div class="row text-center">
+                        <div class="col-2">
+                            <a href="Invierno.php" >Invierno</a>
+                        </div>
+                        <div class="col-2">
+                            <a href="">Zapatos</a>
+                        </div>
+                        <div class="col-2">
+                            <a href="">Remeras</a>
+                        </div>
+                        <div class="col-2">
+                            <a href="">Pantalones</a>
+                        </div>
+                        <div class="col-2">
+                            <a href="">Niños</a>
+                        </div>
+                        <div class="col-2">
+                            <a href="">Accesorios</a>
+                        </div>
+                    </div>
+                    </div>           
+            </div>
+        </nav>
