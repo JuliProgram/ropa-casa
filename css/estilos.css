@@ -54,9 +54,6 @@ body{
  .logo {
     height: 10px;   
 }
-#invierno .invierno-foto{
-    height: 200px;
-}
 
 /*CONTACTO*/
 a{
@@ -71,7 +68,9 @@ a{
     font-size: 20px;
     color: black;
 }
-
+.carousel-item img{
+    height: 500px;
+}
 
 nav .active{
     border: none;

@@ -21,24 +21,33 @@
   <?php  include_once("header.php");?> 
 </header>
     <main class="container">
-        <div class="row fondo">
-          <div class="col-6 text-center">
-            <div class="row">
-              <div class="12 py-2">
-                <h1>Aproveche las ofertas de verano!</h1>
-                <p class="text-main">Ahorra mucho con los descuentos que tenemos para vos!</p>
-              </div>
-            </div>
-            <div class="row">
-              <div class="12 py-2">
-                <button class="btn btn-primary">Ver<a href=""></a></button>
-              </div>
-            </div>
-          </div>
-          <div class="col-6 text-center">
-            <img class="img-main" src="images/ropa main.png" alt="">
-          </div>
-        </div>
+      <div class="carrousell mt-5">
+      <div id="carouselExampleAutoplaying" class="carousel slide" data-bs-ride="carousel">
+  <div class="carousel-inner">
+    <div class="carousel-item active">
+      <img src="images/invierno photoshoppng.png" class="d-block w-100" alt="...">
+    </div>
+    <div class="carousel-item">
+      <img src="images/inviernopho2.png" class="d-block w-100" alt="...">
+    </div>
+    <div class="carousel-item">
+      <img src="images/hombre-invierno.png" class="d-block w-100" alt="...">
+    </div>
+  </div>
+  <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleAutoplaying" data-bs-slide="prev">
+    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+    <span class="visually-hidden">Previous</span>
+  </button>
+  <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleAutoplaying" data-bs-slide="next">
+    <span class="carousel-control-next-icon" aria-hidden="true"></span>
+    <span class="visually-hidden">Next</span>
+  </button>
+</div>
+      </div>
+      <div class="row">
+        <div class="col-6">asdfkdsaf</div>
+        <div class="col-6">asdfkdsaf</div>
+      </div>
     </main>
     <footer class=" bg-danger mt-auto py-1">
       <?php include_once("footer.php") ?>
