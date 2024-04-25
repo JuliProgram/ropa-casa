@@ -2,6 +2,48 @@
 body{
     font-family: 'Montserrat', sans-serif;
 }
+/*inicio*/
+#inicio .img-item{
+    height: 250px;
+    width: 300px;
+    padding: 10px;
+}
+span .descuento {
+    color: #00a650;
+    font-size: 14px;
+    font-weight: 500;
+    line-height: 1;
+    margin-left: 4px;
+    padding: 15px 0 0;
+}
+#inicio .tamaño-precio{
+    font-size: 24px;
+}
+
+.promotion-item__today-offer-text {
+    background-color: #3483fa;
+    border-radius: 3px;
+    color: #fff;
+    display: inline-block;
+    font-size: 12px;
+    font-weight: 600;
+    line-height: 1.2;
+    padding: 2px 3px;
+}
+.carousel-caption {
+    position: absolute;
+    bottom: 150px; /* Ajusta esta propiedad para cambiar la distancia desde la parte inferior */
+    left: 50%; /* Esto centrará horizontalmente el texto */
+    transform: translateX(-100%); /* Esto lo desplaza hacia la izquierda la mitad de su ancho, centrando el texto */
+    text-align: center; /* Alinea el texto al centro */
+    color: white; /* Cambia el color del texto si es necesario */
+    /* Cambia el color de fondo del texto si es necesario */
+    /* Ajusta el relleno alrededor del texto si es necesario */
+}
+.carousel-caption p{
+    color: white;
+    font-size: 25px;
+}
 
 /*nav*/
 #mainNav.hidden {
@@ -35,6 +77,14 @@ body{
 }
 .fondo{
     margin-top: 100px;
+}
+#inicio .separacion{
+    background-color: #B6CBCA;
+    padding: 20px;
+}
+#inicio .fondoInterno{
+    background-color: white;
+    padding: 10px;
 }
 /*Encuentro*/
 #encuentro p{
@@ -309,11 +359,3 @@ footer .fa-whatsapp{
 img.logo{
     height: 80px;
 }
-#inicio p {
-    color: white;
-    border: 1px solid white;
-    font-weight: 600;
-    border-radius: 20px;
-    font-size: 17px;
-}
-
