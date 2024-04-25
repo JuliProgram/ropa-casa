@@ -3,7 +3,7 @@ body{
     font-family: 'Montserrat', sans-serif;
 }
 /*inicio*/
-#inicio .img-item{
+#inicio .img-item ,#invierno .img-item{
     height: 250px;
     width: 300px;
     padding: 10px;
@@ -16,7 +16,7 @@ span .descuento {
     margin-left: 4px;
     padding: 15px 0 0;
 }
-#inicio .tamaño-precio{
+#inicio .tamaño-precio #invierno .tamaño-precio{
     font-size: 24px;
 }
 
@@ -78,13 +78,18 @@ span .descuento {
 .fondo{
     margin-top: 100px;
 }
-#inicio .separacion{
+#inicio .separacion ,#invierno .separacion{
     background-color: #B6CBCA;
     padding: 20px;
 }
-#inicio .fondoInterno{
+#inicio .fondoInternoDescripcion ,#invierno .fondoInternoDescripcion{
     background-color: white;
     padding: 10px;
+}
+#inicio .fondoInterno ,#invierno .fondoInterno{
+    background-color: white;
+    padding: 10px;
+    border-left: 1px solid #B6CBCA;
 }
 /*Encuentro*/
 #encuentro p{
